@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Trading Tracker</h1>
+    </header>
+    <main>
+        <section class="portfolio">
+            <h2>My Portfolio</h2>
+            <div id="stocks">
+                <h3>Stocks</h3>
+                <ul id="stocks-list"></ul>
+            </div>
+            <div id="cryptos">
+                <h3>Cryptos</h3>
+                <ul id="cryptos-list"></ul>
+            </div>
+            <div id="etfs">
+                <h3>ETFs</h3>
+                <ul id="etfs-list"></ul>
+            </div>
+            <canvas id="portfolio-chart" width="400" height="200"></canvas>
+            <div id="gains-losses">
+                <h3>Gains and Losses</h3>
+                <p id="monthly-gains">Monthly Gains: $0</p>
+                <p id="yearly-gains">Yearly Gains: $0</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Trading Tracker</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
